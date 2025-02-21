@@ -9,7 +9,7 @@ parent: Workshop Activities
 - **MAKE SURE to title the next and following activities** in the following format: "**1-Next Activity**" & "**2-Second Activity**".
 - Please review the following
 
-<iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+<iframe loading="lazy" style="position: absolute; width: 100%; height: 0; top: 0; left: 0; border: none; padding: 0;margin: 0;"
     src="https://www.canva.com/design/DAGev4svooM/ZJJj_wwGfggn6hDgXX90Pw/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
   </iframe>
 
