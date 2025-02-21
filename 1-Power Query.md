@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 1 Power Query
-nav_order: 2
+nav_order: 1
 parent: Workshop Activities
 ---
 # Step 1 Power Query
@@ -12,4 +12,4 @@ parent: Workshop Activities
 
 
 **UPDATE**
-[NEXT STEP: Dax ](basics-data-cleaning.html){: .btn .btn-blue }
+[NEXT STEP: Dax ](2-DAX.md){: .btn .btn-blue }

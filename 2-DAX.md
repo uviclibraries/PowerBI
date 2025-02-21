@@ -1,15 +1,15 @@
 ---
 layout: default
-title: 1 Power Query
+title: 2 DAX
 nav_order: 1
 parent: Workshop Activities
 ---
-# Step 1 Power Query
+# Step 2 DAX
 
-> **_DOWNLOAD:_**  [Go to vgsales.csv from GitHub](https://github.com/uviclibraries/PowerBI/blob/main/Data/vgsales.csv) click the download button in the top right-hand corner
+> **_DOWNLOAD:_**  [Go to vgsales.csv on GitHub](https://github.com/uviclibraries/PowerBI/blob/main/Data/vgsales.csv) click the download button in the top right-hand corner
 ![alt text](images/image.png)
 
 
 
 **UPDATE**
-[NEXT STEP: Excel Basics](basics-data-cleaning.html){: .btn .btn-blue }
+[NEXT STEP: Visualizations ](3-Visualizations.md){: .btn .btn-blue }
