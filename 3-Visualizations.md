@@ -7,6 +7,4 @@ parent: Workshop Activities
 # Step 3 Visualizations
 
 
-
-**UPDATE**
 [NEXT STEP: Additional Resources](additional-resources.md){: .btn .btn-blue }

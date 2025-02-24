@@ -11,5 +11,4 @@ parent: Workshop Activities
 
 
 
-**UPDATE**
 [NEXT STEP: Dax ](2-DAX.md){: .btn .btn-blue }

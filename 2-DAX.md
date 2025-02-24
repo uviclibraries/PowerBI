@@ -11,5 +11,4 @@ parent: Workshop Activities
 
 
 
-**UPDATE**
 [NEXT STEP: Visualizations ](3-Visualizations.md){: .btn .btn-blue }

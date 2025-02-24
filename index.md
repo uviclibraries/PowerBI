@@ -32,9 +32,9 @@ This workshop is not an endorsement of Power BI; there are many options for data
 
 At the end of this workshop, you will be able to:
 
-1. Load an excel spreadsheet into power BI
+1. Load a CSV spreadsheet into power BI
 2. Make simple data transformations with Power Query
-3. Build relationships in your data model
+3. Build a star schema relationship in your data model
 4. Create simple DAX measures
 5. Create and customize visualizations
  
