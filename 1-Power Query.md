@@ -7,7 +7,9 @@ parent: Workshop Activities
 # Part 1 Power Query
 
 >Step 0 **_DOWNLOAD:_**  [Go to vgsales.csv on GitHub](https://github.com/uviclibraries/PowerBI/blob/main/Data/vgsales.csv) click the download button in the top right-hand corner
-![alt text](images/image.png)
+!
+
+[alt text](images/image.png)
 
 In Power Query we want to transform the data to make it compatible with Power BI, so it's closely related to the relationship and model building part of Power BI. We can also do some data cleaning in Power Query, although it is not its main function.
 
@@ -28,32 +30,35 @@ Step 1: loading in the data
 
 Step 2: transforming the data
 
-    we want to transform the data to work in a star schema. I often think of the "points" of the star as bing the categories (qauantitative) that will filter the data and the core to be where the data measures (qualitative) will be, along with connections to the points. Looking a the columns in your dataset, which do you think would be filter categories?
+<blockquote>
 
-    Here are descriptions for the columns:
+we want to transform the data to work in a star schema. I often think of the "points" of the star as bing the categories (qauantitative) that will filter the data and the core to be where the data measures (qualitative) will be, along with connections to the points. Looking a the columns in your dataset, which do you think would be filter categories?
 
-        Rank - Ranking of overall sales
+Here are descriptions for the columns:
 
-        Name - The games name
+Rank - Ranking of overall sales
 
-        Platform - Platform of the games release
+Name - The games name
 
-        Year - Year of the game's release
+Platform - Platform of the games release
 
-        Genre - Genre of the game
+Year - Year of the game's release
 
-        Publisher - Publisher of the game
+Genre - Genre of the game
 
-        NA_Sales - Sales in North America (in millions)
+Publisher - Publisher of the game
 
-        EU_Sales - Sales in Europe (in millions)
+NA_Sales - Sales in North America (in millions)
 
-        JP_Sales - Sales in Japan (in millions)
+EU_Sales - Sales in Europe (in millions)
 
-        Other_Sales - Sales in the rest of the world (in millions)
+JP_Sales - Sales in Japan (in millions)
 
-        Global_Sales - Total worldwide sales.
+Other_Sales - Sales in the rest of the world (in millions)
 
+Global_Sales - Total worldwide sales.
+
+</blockquote>
 
 To make your dimension tables (the points of your star)
 1. right click on the **vgsales** query in the Queries pane
@@ -99,7 +104,7 @@ Step 3: load in the data and check the model
 
 Looking at the model
 
-    notice the connecting lines in the schema show a 1 to many relationship (1 at one end and * at the other end) and have an arrow in the centre of the line, that shows the direction of the relationship. We have all 1-to-many relationships, which is what we want.
+>notice the connecting lines in the schema show a 1 to many relationship (1 at one end and * at the other end) and have an arrow in the centre of the line, that shows the direction of the relationship. We have all 1-to-many relationships, which is what we want.
 
 
 [NEXT STEP: Dax ](2-DAX.md){: .btn .btn-blue }
