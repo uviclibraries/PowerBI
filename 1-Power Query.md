@@ -9,7 +9,9 @@ parent: Workshop Activities
 >Step 0 **_DOWNLOAD:_**  [Go to vgsales.csv on GitHub](https://github.com/uviclibraries/PowerBI/blob/main/Data/vgsales.csv) click the download button in the top right-hand corner
 !
 
-[alt text](images/image.png)
+<img src="images\image.png" style="">
+
+## Reminder
 
 In Power Query we want to transform the data to make it compatible with Power BI, so it's closely related to the relationship and model building part of Power BI. We can also do some data cleaning in Power Query, although it is not its main function.
 
@@ -33,30 +35,30 @@ Step 2: transforming the data
 <blockquote>
 
 we want to transform the data to work in a star schema. I often think of the "points" of the star as bing the categories (qauantitative) that will filter the data and the core to be where the data measures (qualitative) will be, along with connections to the points. Looking a the columns in your dataset, which do you think would be filter categories?
+<br><br>
+Here are descriptions for the columns: <br><br>
 
-Here are descriptions for the columns:
+Rank - Ranking of overall sales<br>
 
-Rank - Ranking of overall sales
+Name - The games name<br>
 
-Name - The games name
+Platform - Platform of the games release<br>
 
-Platform - Platform of the games release
+Year - Year of the game's release<br>
 
-Year - Year of the game's release
+Genre - Genre of the game<br>
 
-Genre - Genre of the game
+Publisher - Publisher of the game<br>
 
-Publisher - Publisher of the game
+NA_Sales - Sales in North America (in millions)<br>
 
-NA_Sales - Sales in North America (in millions)
+EU_Sales - Sales in Europe (in millions)<br>
 
-EU_Sales - Sales in Europe (in millions)
+JP_Sales - Sales in Japan (in millions)<br>
 
-JP_Sales - Sales in Japan (in millions)
+Other_Sales - Sales in the rest of the world (in millions)<br>
 
-Other_Sales - Sales in the rest of the world (in millions)
-
-Global_Sales - Total worldwide sales.
+Global_Sales - Total worldwide sales.<br>
 
 </blockquote>
 
