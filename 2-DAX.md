@@ -68,23 +68,23 @@ A "measure" in Power BI is a custom calculation that performs calculations on yo
     <details><summary><b>help with DAX codes for part 7</b></summary>
     <code>
     Global Sales = SUM(vgsales[Global_sales])
-    </code>
+    </code><br>
 
     <code>
     Japanese Sales = SUM(vgsales[JP_Sales])
-    </code>
+    </code><br>
 
     <code>
     North American Sales = SUM(vgsales[NA_Sales])
-    </code>
+    </code><br>
 
     <code>
     Count of Games = DISTINCTCOUNT(vgsales[Name])
-    </code>
+    </code><br>
 
     <code>
     Other Sales = SUM(vgsales[Other_Sales])
-    </code>
+    </code><br>
  
     <code>
     Average Rank = AVERAGE(vgsales[Rank])
