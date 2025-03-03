@@ -6,7 +6,7 @@ parent: Workshop Activities
 ---
 # Part 2 DAX
 
-If you expand all the tables in your data pane, your data should look like this. Notice that you now have repeats of columns. We need those for connections, but not to build our measures and visualizations with.
+If you expand all the tables in your data pane (located on the right-hand side of the window), your data should look like this. Notice that you now have duplicated columns. We need those for connections, but not to build our measures and visualizations with.
 <p float="left">
 <img src="images\datapane.png" width="45%">
 <img src="images\datapanewithcircles.png" width="45%">
@@ -14,10 +14,13 @@ If you expand all the tables in your data pane, your data should look like this.
 
 Step 1: We are going to hide the duplicated columns from the vgsales table, so we don't accidentally use the wrong ones.
 
-1. right click on genre and select hide from the drop-down menu. do the same for all the columns that were added to dimension tables
-2. right click anywhere in the Data Pane and make sure "view hidden" is unselected
+> NOTE: you should do the following steps in the "Report view" for the drop-down options you need
+<img src="images\reportmode.png" style="">
 
-    <details><summary><b>help with step 2</b></summary>
+1. right click on genre and select hide from the drop-down menu. do the same for all the columns that were added to dimension tables
+2. right click anywhere in the "Data" Pane and make sure "view hidden" is unselected
+
+    <details><summary><b>Click here for help with step 2</b></summary>
     <img src="images\hidegenreinvgsales.png" style="">
     <img src="images\allhidden.png" style="">
     <img src="images\hidehiddenvars.png" style="">
@@ -32,14 +35,15 @@ A "measure" in Power BI is a custom calculation that performs calculations on yo
 
 1. on the home tab, choose "Enter Data" from the top pane
 2. don't change anything in the table, but rename it "KeyMeasures"
-3. click the "load button"
-4. in the Data Pane select the table by clicking the table name
-5. under the "Table tools" tab, select "new measure"
-6. make a measure for the sum of European sales
+3. click the "Load" button
+4. in the "Data" pane select the table by clicking the table name
+5. under the "Table tools" tab, select "new measure" a dialogue box will appear. In the box you can write a measure.
+6. make a measure for the sum of European sales:
      
         European Sales = SUM(vgsales[EU_Sales])
+    click the green checkmark or enter when you are done.
 
-    <details><summary><b>help with parts 1-6</b></summary>
+    <details><summary><b>Click here for help with parts 1-6</b></summary>
     <img src="images\enterdata.png" style="">
     <img src="images\createkeymeasurestables.png" style="">
     <img src="images\selectkeymeasuresbyclickingonit.png" style="">
@@ -52,7 +56,7 @@ A "measure" in Power BI is a custom calculation that performs calculations on yo
     <details><summary><b>help</b></summary>
     <img src="images\deletcolfromkeymeasures.png" style="">
     </details>
-    Notice how the table name moves to the top of the Data Pane and the icon changed. PowerBI now officially recognizes it as a measure table.
+    Notice how the table name moves to the top of the "Data" Pane and the icon changed. PowerBI now officially recognizes it as a measure table.
 
     <img src="images\tablebecomesmeasurestable.png" style="">
 
@@ -65,7 +69,7 @@ A "measure" in Power BI is a custom calculation that performs calculations on yo
     - SUM of other sales
     - AVERAGE rank
 
-    <details><summary><b>help with DAX codes for part 7</b></summary>
+    <details><summary><b>Click here for help with DAX codes for part 7</b></summary>
     <code>
     Global Sales = SUM(vgsales[Global_sales])
     </code><br>

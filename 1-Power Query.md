@@ -6,7 +6,7 @@ parent: Workshop Activities
 ---
 # Part 1 Power Query
 
->Step 0 **_DOWNLOAD:_**  [Go to vgsales.csv on GitHub](https://github.com/uviclibraries/PowerBI/blob/main/Data/vgsales.csv) click the download button in the top right-hand corner
+>Step 0: **_DOWNLOAD_** by [going to vgsales.csv on GitHub](https://github.com/uviclibraries/PowerBI/blob/main/Data/vgsales.csv) click the download button in the top right-hand corner
 !
 
 <img src="images\image.png" style="">
@@ -34,15 +34,15 @@ Step 2: transforming the data
 
 <blockquote>
 
-we want to transform the data to work in a star schema. I often think of the "points" of the star as bing the categories (qauantitative) that will filter the data and the core to be where the data measures (qualitative) will be, along with connections to the points. Looking a the columns in your dataset, which do you think would be filter categories?
+we want to transform the data to work in a star schema. I often think of the "points" of the star as being the categories (qualitative)  that will filter the data and the core of the star being where the data measures (quantitative) will be, along with connections to the points. Looking at the columns in your dataset, which do you think would be filter categories?
 <br><br>
 Here are descriptions for the columns: <br><br>
 
-Rank - Ranking of overall sales<br>
+Rank - Ranking of overall sales for a game<br>
 
-Name - The games name<br>
+Name - The game name<br>
 
-Platform - Platform of the games release<br>
+Platform - Platform of the game's release<br>
 
 Year - Year of the game's release<br>
 
@@ -58,14 +58,14 @@ JP_Sales - Sales in Japan (in millions)<br>
 
 Other_Sales - Sales in the rest of the world (in millions)<br>
 
-Global_Sales - Total worldwide sales.<br>
+Global_Sales - Total worldwide sales<br>
 
 </blockquote>
 
 To make your dimension tables (the points of your star)
 1. right click on the **vgsales** query in the Queries pane
-2.  choose reference, this creates a duplicate table that is still conected the the first table
-3. choose one of the categories that will be a dimensions
+2.  choose reference, this creates a duplicate table that is still connected to the first table
+3. choose one of the categories that will be a dimension
 4. right click on the column header and choose "remove other columns". ***NOTE that dimension tables often have multiple columns but in this example each dimension table only has one column**
 5. right click on the column header again and select "remove duplicates"
 6. now rename the table under the "Query Settings" pane to something reflective of your selected column
@@ -77,9 +77,9 @@ To make your dimension tables (the points of your star)
     - Publishers
 
 Make your years column a number type. This will help with sorting and filtering
-1. In the *vgsales* table, change the data type of **Year** to whole number by clicking on the symbol on the left-hand side of the column header
-2. Replace the errors with nulls by right clicking on the Year header and selling "replace errors" replace them with "null"
-3. In the *Year* table filter out the null by clicking on the arrow on the right-hand side of the column header and un-selecting (null)
+1. in the *vgsales* table, change the data type of **Year** to whole number by clicking on the symbol on the left-hand side of the column header
+2. replace the errors with nulls by right clicking on the Year header and selecting "replace errors" replace them with "null"
+3. in the *Year* table filter out the null by clicking on the arrow on the right-hand side of the column header and un-selecting (null)
 
 <details><summary><b>Click here for pictures to help you through step 2</b></summary>
 <img src="images\lookatcolumns.png" style="">
@@ -106,7 +106,7 @@ Step 3: load in the data and check the model
 
 Looking at the model
 
->notice the connecting lines in the schema show a 1 to many relationship (1 at one end and * at the other end) and have an arrow in the centre of the line, that shows the direction of the relationship. We have all 1-to-many relationships, which is what we want.
+>notice the connecting lines in the schema show a 1-to-many relationship (1 at one end and * at the other end) and have an arrow in the centre of the line, that shows the direction of the relationship. We have all 1-to-many relationships, which is what we want.
 
 
 [NEXT STEP: Dax ](2-DAX.md){: .btn .btn-blue }
