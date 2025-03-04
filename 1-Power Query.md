@@ -34,7 +34,7 @@ Step 2: transforming the data
 
 <blockquote>
 
-we want to transform the data to work in a star schema. I often think of the "points" of the star as being the categories (qualitative)  that will filter the data and the core of the star being where the data measures (quantitative) will be, along with connections to the points. Looking at the columns in your dataset, which do you think would be filter categories?
+We want to transform the data to work in a star schema. I often think of the "points" of the star as being the categories (qualitative)  that will filter the data and the core of the star being where the data measures (quantitative) will be, along with connections to the points. Looking at the columns in your dataset, which do you think would be filter categories?
 <br><br>
 Here are descriptions for the columns: <br><br>
 

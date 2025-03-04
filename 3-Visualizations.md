@@ -23,7 +23,7 @@ Step 1: add the data to a visualization
     NOTE: if a measure is expected, but you drag a field in, it might automatically convert the field to a measure (ie Count of Genre). Watch out for that as you are playing around.
     <img src="images\autoaggregate.png">
 
-3. drag measures and fields from the data pane into the data field boxes in the visualizations pane. play with moving the data around and adding different data to see what happens.
+3. drag measures and fields from the data pane into the data field boxes in the visualizations pane. Play with moving the data around and adding different data to see what happens.
 
     NOTE: your visualization should have at least one measure from your KeyMeasures table, or the fields wont properly connect with each other. This is because of the way we build our model (and the directions of the relationships)
 

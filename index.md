@@ -3,8 +3,7 @@ layout: default
 title: Introduction 
 nav_order: 1
 ---
-**UPDATE PHOTO**
-<img src="images/WORKSHOP-LOGO-HERE.png" style="float:right;width:180px;" alt="image description">
+<img src="images\New_Power_BI_Logo.svg.png" style="float:right;width:100px;" alt="image description">
 
 # Intro to Power BI
 
@@ -16,17 +15,15 @@ nav_order: 1
 
 [Power BI](https://learn.microsoft.com/en-us/power-bi/){:target="_blank"} is a Microsoft solution for data visualizations and dashboards. BI stands for "Business Intelligence", as you can use it to mae meaningful data-driven decisions.
 
-There are 
-
 This workshop uses Power [BI desktop](https://learn.microsoft.com/en-us/power-bi/fundamentals/desktop-what-is-desktop){:target="_blank"}, a local version of Power BI, because it is free to download and use. 
 
 This workshop is not an endorsement of Power BI; there are many options for data visualizations and dashboards software may be better in other contexts. While an excellent tool, Power BI imposes some limitations that users should be aware of:
 
 - Limited user input, apart from filtering
-- limitations on visualization creativity
+- Limitations on visualization creativity
 - Requires some use of coding with DAX and M code
 - Large data models make the report slow
-- Poorly made data models make the rport inaccurate
+- Poorly made data models could make the report inaccurate
 
 ## Learning objectives
 
