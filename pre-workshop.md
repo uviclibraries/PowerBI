@@ -3,7 +3,8 @@ layout: default
 title: Pre-Workshop Activities
 nav_order: 2
 ---
-Pre-Workshop Videos & Activities
+# Pre-Workshop Videos & Activities
+
 This workshop is primarily hands-on practice with Power BI Desktop in order to learn to use key features of the software. To participate fully please do the following **before the workshop**:
 
 **Download Required Software**

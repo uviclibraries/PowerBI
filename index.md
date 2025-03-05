@@ -7,13 +7,13 @@ nav_order: 1
 
 # Intro to Power BI
 
-- Pre-workshop activities: 5 min 
+- Pre-workshop activities: 15 min 
 - Introductory presentation: 50 min
-- Hands-on activities: 110 min
+- Hands-on activities: 20-50 min
 
 ## Why Power BI? 
 
-[Power BI](https://learn.microsoft.com/en-us/power-bi/){:target="_blank"} is a Microsoft solution for data visualizations and dashboards. BI stands for "Business Intelligence", as you can use it to mae meaningful data-driven decisions.
+[Power BI](https://learn.microsoft.com/en-us/power-bi/){:target="_blank"} is a Microsoft solution for data visualizations and dashboards. BI stands for "Business Intelligence", as you can use it to make meaningful data-driven decisions.
 
 This workshop uses Power [BI desktop](https://learn.microsoft.com/en-us/power-bi/fundamentals/desktop-what-is-desktop){:target="_blank"}, a local version of Power BI, because it is free to download and use. 
 
