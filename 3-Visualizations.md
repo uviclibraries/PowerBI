@@ -64,11 +64,13 @@ Step 3: adding more visualizations
 
     <details><summary><b>Click here for a video to help you create and format a slicer</b></summary>
     <video src="images\formattingslicers.mp4" width="100%" height="100%" controls></video>
-    </details><br>
+    </details>
 
 2. add more visualizations to your page. Try exploring different measures and categories in your various visualizations.
 
-3. Add a title and description to your report using the text box
+> If you'd like, check out the [LibGuide on visualization best practices](https://libguides.uvic.ca/pick-a-viz)
+
+3. Add a title and description to your report using a text box
 
 <img src="images\addtextbox.png">
 
