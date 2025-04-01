@@ -6,6 +6,8 @@ parent: Workshop Activities
 ---
 # Hands-On Activities Introduction
 
+If you want a physical copy of the workshop activity instructions you can print from this [Printable PDF of workshop actvities](https://github.com/uviclibraries/PowerBI/blob/main/printable-workshop-activities.pdf)
+
 - Please review the following
 
 <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
