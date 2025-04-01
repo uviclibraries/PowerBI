@@ -1,7 +1,7 @@
 ---
 layout: default
 nav_order: 20
-title: Land acknowledgement 
+title: Links and Videos
 ---
 
 # Links and Videos in Workshop Activities
